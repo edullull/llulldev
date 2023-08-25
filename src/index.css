@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   
-    background: linear-gradient(70deg, grey, rgb(147, 208, 243));
+  background: linear-gradient(70deg, grey, rgb(147, 208, 243));
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -42,6 +42,11 @@ h1 {
   border-radius: 10px;
   color: black;
   font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+  padding: 2px 20px 0px 15px;
+  font-weight: bold;
 }
 
 

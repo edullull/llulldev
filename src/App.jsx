@@ -1,5 +1,3 @@
-import { BrowserRouter as Router, Route, BrowserRouter } from 'react-router-dom';
-import ButtonList from './component/ButtonList';
 import data from './data/data';
 import perfil1 from './component/Perfil.png';
 import { useState } from 'react';
@@ -26,7 +24,6 @@ function App() {
 
               
             <ArticleList articles={articles} />
-            <ArticleCss articles={articles} setArticles={setArticles}/>
             <Footer/>
       </div>
   );

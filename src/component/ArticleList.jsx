@@ -25,8 +25,11 @@ const ArticleList = () => {
     <div>
       <div>
         <button onClick={() => handleButtonClick('sobre')}>Sobre mí</button>
-        <button onClick={() => handleButtonClick('css')}> Artículos de CSS</button>
-        <button onClick={() => setSelectedCategory(null)}>Todos los Artículos</button>
+        <button onClick={() => handleButtonClick('css')}> Experiencia</button>
+        <button onClick={() => setSelectedCategory(null)}>Proyectos</button>
+        <button onClick={() => setSelectedCategory(null)}>Articulos </button>
+
+
       </div>
       <div>
         {showArticles &&(filteredArticles.map((article) => (
