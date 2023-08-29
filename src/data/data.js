@@ -3,7 +3,7 @@ const data = [
 		id: 1,
 		title: 'Pues aquí parace ser que me tengo que describir.',
 		category: 'sobre',
-		description: `Soy Eduardo Llull, un apasionado programador Front-End con un enfoque claro: crear experiencias web cautivadoras y visualmente agradables. Mi viaje en el mundo del desarrollo comenzó hace ya bastante tiempo. Desde el inicio, supe que la programación era mi pasión, aunque siempre sentía que 
+		description: `Soy Eduardo Llull, programador Front-End con un enfoque claro: crear experiencias web cautivadoras, visualmente agradables y sobre todo con sencillez. Mi viaje en el mundo del desarrollo comenzó hace ya bastante tiempo. Desde el inicio, supe que la programación era mi pasión, aunque siempre sentía que 
 		los lenguajes que estaba utilizando no lograban colmar mi entusiasmo; ya fueran lenguajes como Java, C#, o Python.
 		Sin embargo, un día, por casualidades del destino, me encontré con JavaScript, y fue como encontrar la pieza faltante del rompecabezas. 
 		Quedé fascinado por cómo cada línea de código que escribía cobraba vida en un corto período de tiempo. Desde aquel momento, mi travesía me llevó desde JavaScript hasta 
@@ -19,39 +19,19 @@ const data = [
 		title: 'Experiencia',
 		category: 'css',
 		description:
-			'Hablemos de la experiencia, la verdad es que tengo mucha. En mi repositorio de GitHub hay bastante proyectos que he desarrollado durante estos años... seguir aqui poniendo lo que he realizado. Y añadir, "aunque no he tenido la ocasión de trabajar en ningun sitio"',
-		date: 'Published on Dec 14, 2021',
-		ReadingTime: '3 min read',
+			'"¡Hablemos de la experiencia! Bajo mi punto de vista es relativo y os explico el porqué. Normalmente en el mundo laboral la experiencia se mide en cuanto tiempo has trabajado en una o varias empresas. Y os pregunto: ¿Aquellos programadores que no han trabajado en ninguna empresa, pero llevan bastante tiempo haciendo proyectos, escribiendo código, realizando tests, etc., tienen experiencia?". Pues dejando esta pregunta en el aire. Si os puedo decir lo que he hecho, por eso os dejare mi enlace de GitHub donde podeís ver todo lo realizado este año.',
+		date: '',
+		ReadingTime: '',
 	},
 	{
 		id: 3,
-		title: 'Fractional SVG stars with CSS',
-		category: 'css',
+		title: 'En construccion...',
+		category: 'blog',
 		description:
-			'Create a rating component with svg stars that support fractional values.',
-		date: 'Published on Sep 06, 2021',
-		ReadingTime: '4 min read',
-	},
-	{
-		id: 4,
-		title: 'Fractional SVG stars with CSS',
-		category: 'css',
-		description:
-			'Create a rating component with svg stars that support fractional values.',
-		date: 'Published on Sep 06, 2021',
-		ReadingTime: '4 min read',
-	},
-	{
-		id: 5,
-		title: 'Fractional SVG stars with CSS',
-		category: 'css',
-		description:
-			'Create a rating component with svg stars that support fractional values.',
-		date: 'Published on Sep 06, 2021',
-		ReadingTime: '4 min read',
+			'Esta opción esta deshabilitada ya que esta en construcción, en breve estará activa. Os informaré vía redes sociales. Un saludo',
+		date: '',
+		ReadingTime: '',
 	}
-	
-	
 ];
 
 export default data;

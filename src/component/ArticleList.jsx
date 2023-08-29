@@ -26,8 +26,8 @@ const ArticleList = () => {
       <div>
         <button onClick={() => handleButtonClick('sobre')}>Mi historia</button>
         <button onClick={() => handleButtonClick('css')}> Experiencia</button>
-        <button onClick={() => setSelectedCategory(null)}>Proyectos</button>
-        <button onClick={() => setSelectedCategory(null)}>Articulos </button>
+        <button onClick={() => handleButtonClick('proyects')}>Proyectos</button>
+        <button onClick={() => handleButtonClick('blog')}>Mi Blog </button>
 
 
       </div>

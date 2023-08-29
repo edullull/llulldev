@@ -41,11 +41,12 @@ h1 {
   background-color: rgb(236, 232, 232);
   border-radius: 10px;
   color: black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Roboto', sans-serif;
 }
 
 p{
   padding: 2px 20px 0px 15px;
+  line-height: 30px;
 }
 
 
