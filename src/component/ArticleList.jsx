@@ -25,7 +25,7 @@ const ArticleList = () => {
     <div>
       <div>
         <button onClick={() => handleButtonClick('sobre')}>Mi historia</button>
-        <button onClick={() => handleButtonClick('css')}> Experiencia</button>
+        <button onClick={() => handleButtonClick('experiencia')}> Experiencia</button>
         <button onClick={() => handleButtonClick('proyects')}>Proyectos</button>
         <button onClick={() => handleButtonClick('blog')}>Mi Blog </button>
 
@@ -36,6 +36,9 @@ const ArticleList = () => {
           <div className='post' key={article.id}>
             <h2>{article.title}</h2>
             <p>{article.description}</p>
+            <p>{article.description1}</p>
+            <p>{article.description2}</p>
+            <p>{article.description3}</p>
             <p>{article.date}</p>
             <p>{article.ReadingTime}</p>
           </div>
