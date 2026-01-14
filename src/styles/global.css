@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* El efecto de la imagen */
+.text-stroke {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+}
+
+/* Forzamos el fondo oscuro por si Tailwind tarda en cargar */
+:root {
+  background-color: #434446;
+}

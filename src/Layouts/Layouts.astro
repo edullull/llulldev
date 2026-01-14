@@ -1,0 +1,20 @@
+---
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+}
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{title}</title>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+	</head>
+	<body class="bg-[#434446] text-white font-['Inter',sans-serif] m-0 overflow-x-hidden">
+		<slot />
+	</body>
+</html>
